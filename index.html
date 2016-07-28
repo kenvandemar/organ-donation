@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="img/favicon/31274dd9c28877ababd5b17f01e78b7b.ico/favicon-32x32.png">
+    <title></title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/Style2.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/jquery-2.1.4.js"></script>
+
+    <style type="text/css">
+    body {
+    margin: 0 auto;
+    padding:0;
+    background: url("img/background.jpg") no-repeat;
+    background-size: 1400px 900px;
+  background-position-y: -230px;
+}
+    </style>
+</head>
+<body>
+
+    <input type="checkbox" id="menuToggle" />
+    <label for="menuToggle" class="menu-icon">&#9776 Menu|</label>
+    <header>
+        <a href="index.html"class="name">VODO </a><span class="subname">The web of <span class="name">Tổ chức hiến nội tạng Việt Nam</span></span>  
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="where.html">Hiến ở đâu</a></li>
+            <li><a href="knowledge.htm">Kiến thức</a></li>
+            <li><a href="About.html">Về chúng tôi</a></li>
+            <li><a href="Contact.html">Liên hệ</a></li>
+        </ul>
+    </nav>
+ 
+    <article class="show">
+      <p><span class="organ">Organ donation</span> is not a tragedy</p>
+        <p> but it can be a beautiful light in the midst of one</p>
+       
+    </article>
+    
+     <script type="text/javascript">
+        $(document).ready(function () {
+            $('article.show').hide().fadeIn(2200);
+        });
+    </script>
+</body>
+</html>
